@@ -1,0 +1,11 @@
+.home-movie {
+  display: flex;
+  overflow: auto;
+  padding-left: 12px;
+}
+
+.home-movie__img {
+  width: 103px;
+  height: 161px;
+  margin-right: 7px;
+}
