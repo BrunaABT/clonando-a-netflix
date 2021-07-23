@@ -1,0 +1,19 @@
+.search-movie {
+  background-color: #424242;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.search-movie__img {
+  width: 146px;
+}
+
+.search-movie__div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 6px;
+}
