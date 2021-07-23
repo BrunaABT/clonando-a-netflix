@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.navbar__img {
+  width: 19.77px;
+  height: 38.65px;
+}
+
+.navbar__text {
+  font-size: 17px;
+}
