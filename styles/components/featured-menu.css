@@ -1,0 +1,42 @@
+.featured-menu {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.featured-menu__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11px;
+}
+
+.featured-menu__title {
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.featured-menu__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-menu__div {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-menu__div img {
+  height: 24px;
+}
+
+.featured-menu__div p {
+  font-size: 13px;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+.featured-menu__play {
+  margin: 0 42px;
+}
