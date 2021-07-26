@@ -10,13 +10,18 @@
 }
 
 .profile__img {
+  width: 65px;
   height: 60px;
-  width: 64px;
+  transition: transform ease-in-out 180ms;
+}
+
+.profile__img:hover {
+  transform: scale(1.12);
 }
 
 .profile__img--grid {
-  height: 100px;
-  width: 92px;
+  width: 100px;
+  height: 92px;
 }
 
 .profile__txt {
