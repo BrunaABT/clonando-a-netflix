@@ -1,0 +1,20 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile__div {
+  text-align: center;
+}
+
+.profile__img {
+  height: 60px;
+  width: 64px;
+}
+
+.profile__txt {
+  font-size: 12px;
+  margin-top: 5px;
+}
