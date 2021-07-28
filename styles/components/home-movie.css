@@ -1,8 +1,6 @@
 .home-movie {
   display: flex;
   overflow: auto;
-  padding-left: 12px;
-  padding-bottom: 15px;
 }
 
 .home-movie__img {
