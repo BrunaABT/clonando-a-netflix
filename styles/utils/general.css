@@ -13,3 +13,46 @@ strong {
   font-family: "Roboto", sans-serif;
   color: white;
 }
+
+.content {
+  display: block;
+}
+
+.max-resolution {
+  display: none;
+}
+
+@media screen and (min-width: 430px) {
+  .content {
+    display: none;
+  }
+  .max-resolution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .max-resolution__txt--notebook {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    display: none;
+  }
+  .max-resolution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .max-resolution__txt--notebook {
+    display: block;
+  }
+  .max-resolution__txt--tablet {
+    display: none;
+  }
+}
