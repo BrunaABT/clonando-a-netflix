@@ -1,14 +1,29 @@
 @import "../utils/gen-index.css";
 @import "../components/status-bar.css";
-@import "../components/bottom-menu.css";
-@import "../components/bottom-menu.css";
-@import "../components/home-movie.css";
-@import "../components/navbar.css";
-@import "../components/featured-menu.css";
-@import "../components/search-movie.css";
-@import "../components/search-input.css";
+@import "../components/logo.css";
 
 body {
   background-color: black;
   width: 100%;
+}
+
+.center {
+  display: flex;
+  height: calc(100vh - 44px);
+  justify-content: center;
+}
+
+.logo {
+  animation: load 1500ms ease-in-out;
+}
+
+@keyframes load {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
