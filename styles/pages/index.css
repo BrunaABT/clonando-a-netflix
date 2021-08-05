@@ -7,3 +7,8 @@
 @import "../components/featured-menu.css";
 @import "../components/search-movie.css";
 @import "../components/search-input.css";
+
+body {
+  background-color: black;
+  width: 100%;
+}
