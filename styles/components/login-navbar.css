@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  margin-top: 13px;
 }
 
 .login-navbar__edit {
