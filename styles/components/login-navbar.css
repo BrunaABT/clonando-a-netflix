@@ -1,0 +1,13 @@
+@import "../components/logo.css";
+
+.login-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login-navbar__edit {
+  position: absolute;
+  right: 4vh;
+}
