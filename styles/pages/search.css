@@ -1,0 +1,5 @@
+@import "../utils/gen-index.css";
+@import "../components/status-bar.css";
+@import "../components/bottom-menu.css";
+@import "../components/search-input.css";
+@import "../components/search-movie.css";
