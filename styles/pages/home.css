@@ -10,6 +10,12 @@ body {
   position: relative;
 }
 
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  width: 86.7%;
+}
+
 .home-bg {
   width: 100%;
   position: absolute;

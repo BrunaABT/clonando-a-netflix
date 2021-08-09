@@ -3,3 +3,24 @@
 @import "../components/bottom-menu.css";
 @import "../components/search-input.css";
 @import "../components/search-movie.css";
+
+body {
+  position: relative;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 27px;
+  margin: 21px auto;
+  width: 90%;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  width: 86.7%;
+}
+
+.search-space {
+  height: 50px;
+}
