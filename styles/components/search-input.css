@@ -3,14 +3,13 @@
   align-items: center;
   width: 90%;
   margin: 0 auto;
-
   padding: 18px 0;
 }
 
 .search-input__bg {
   background-color: #424242;
   height: 52px;
-  width: 375px;
+  width: 100%;
 }
 
 .search-input__img {
