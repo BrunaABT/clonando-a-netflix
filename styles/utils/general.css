@@ -3,6 +3,11 @@ body {
   width: 100%;
 }
 
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+}
+
 p,
 h1,
 h2,

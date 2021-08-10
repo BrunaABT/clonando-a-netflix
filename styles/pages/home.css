@@ -16,11 +16,6 @@ body {
   z-index: -1;
 }
 
-.bottom-menu {
-  position: fixed;
-  bottom: 0;
-}
-
 .featured-menu {
   margin-top: 293px;
   margin-bottom: 43px;

@@ -1,0 +1,114 @@
+@import "../utils/gen-index.css";
+@import "../components/status-bar.css";
+@import "../components/bottom-menu.css";
+
+body {
+  position: relative;
+}
+
+.smart-downloads {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.smart-downloads__img {
+  width: 18px;
+}
+
+.smart-downloads__txt {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.titles {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.titles-h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 12.32px;
+}
+
+.titles-h2 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.downloads-movies {
+  display: flex;
+  justify-content: center;
+}
+
+.downloads-movies__circle {
+  z-index: -4;
+  position: absolute;
+}
+
+.downloads-movies__img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.downloads-movies__img1 {
+  width: 80px;
+  z-index: -3;
+  position: absolute;
+  left: calc(50vw - 95px);
+  transform: rotate(-20deg);
+  border-radius: 10px;
+}
+
+.downloads-movies__img2 {
+  width: 90px;
+  border-radius: 10px;
+}
+
+.downloads-movies__img3 {
+  width: 80px;
+  z-index: -2;
+  position: absolute;
+  left: calc(50vw + 15px);
+  transform: rotate(20deg);
+  border-radius: 10px;
+}
+
+.setup-btn,
+.find-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.setup {
+  width: 94%;
+  margin: 0 auto;
+  border: none;
+  background-color: #0071eb;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13.8px;
+  border-radius: 2px;
+  padding: 6px 0;
+  margin-bottom: 49px;
+  line-height: 28px;
+}
+
+.find {
+  width: 70%;
+  margin: 0 auto;
+  border: none;
+  background-color: #424242;
+  color: white;
+  font-size: 16.7px;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 6px 0;
+  margin-bottom: 49px;
+  padding: 10px 0;
+}

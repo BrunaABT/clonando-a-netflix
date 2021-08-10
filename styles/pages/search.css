@@ -15,11 +15,6 @@ body {
   width: 90%;
 }
 
-.bottom-menu {
-  position: fixed;
-  bottom: 0;
-}
-
 .search-space {
   height: 50px;
 }
