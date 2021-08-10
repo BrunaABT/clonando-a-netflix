@@ -1,7 +1,6 @@
 @import "../utils/gen-index.css";
 @import "../components/status-bar.css";
 @import "../components/bottom-menu.css";
-@import "../components/bottom-menu.css";
 @import "../components/home-movie.css";
 @import "../components/navbar.css";
 @import "../components/featured-menu.css";
@@ -10,17 +9,16 @@ body {
   position: relative;
 }
 
-.bottom-menu {
-  position: fixed;
-  bottom: 0;
-  width: 86.7%;
-}
-
 .home-bg {
   width: 100%;
   position: absolute;
   top: 0;
   z-index: -1;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
 }
 
 .featured-menu {
