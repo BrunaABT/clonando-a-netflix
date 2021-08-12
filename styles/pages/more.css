@@ -7,3 +7,48 @@
   position: fixed;
   bottom: 0;
 }
+
+.manage {
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+.manage__img {
+  padding-right: 7px;
+}
+
+.share {
+  background-color: #1a1a1a;
+  padding-top: 23px;
+}
+
+.share-title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 16px;
+  margin-bottom: 5px;
+}
+
+.share-title__txt {
+  padding-left: 9px;
+}
+
+.share-subtitle {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.18000000715255737px;
+  padding: 0 16px 11px 16px;
+}
+
+.share-terms {
+  text-decoration: underline;
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 16px;
+  color: #c4c4c4;
+}
