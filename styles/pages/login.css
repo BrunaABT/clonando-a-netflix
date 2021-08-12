@@ -1,6 +1,6 @@
 @import "../utils/gen-index.css";
 @import "../components/status-bar.css";
-@import "../components/profile.css";
+@import "../components/profiles.css";
 
 #animation {
   animation-name: pageLoad;
