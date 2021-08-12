@@ -1,0 +1,90 @@
+.share {
+  background-color: #1a1a1a;
+  padding-top: 23px;
+  padding-bottom: 26.4px;
+}
+
+.share-title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 16px;
+  margin-bottom: 5px;
+}
+
+.share-title__txt {
+  padding-left: 9px;
+}
+
+.share-subtitle {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.18000000715255737px;
+  padding: 0 16px 11px 16px;
+}
+
+.share-terms {
+  text-decoration: underline;
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 16px;
+  color: #c4c4c4;
+  margin-bottom: 11px;
+}
+
+.share-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.share-link__input {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px 0 10px 7px;
+  margin-left: 16px;
+  width: 247px;
+  font-size: 11px;
+  height: 17px;
+}
+
+.share-link__input::placeholder {
+  color: white;
+}
+
+.share-link__btn {
+  border: none;
+  outline: none;
+  margin-right: 16px;
+  width: 96px;
+  height: 37px;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+  border-radius: 2px;
+  padding-left: 7px;
+}
+
+.share-social {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 27px;
+  margin-right: 32px;
+  align-items: center;
+}
+
+.share-social__division {
+  height: 41px;
+  width: 1px;
+  background-color: #8c8787;
+}
+
+.share-social__ellipsis {
+  display: flex;
+  flex-direction: column;
+}

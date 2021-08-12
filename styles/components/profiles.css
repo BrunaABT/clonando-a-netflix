@@ -40,3 +40,14 @@
   grid-template-columns: 100px 100px;
   grid-gap: 25px;
 }
+
+.manage {
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+.manage__img {
+  padding-right: 7px;
+}
