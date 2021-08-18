@@ -67,4 +67,33 @@
 .coming-movie__icons {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.icons-remind,
+.icons-share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons-remind {
+  margin-left: 230px;
+}
+
+.icons-share {
+  margin-left: 60px;
+}
+
+.icons-remind__img,
+.icons-share__img {
+  width: 22px;
+  height: 24px;
+}
+
+.icons-remind__txt,
+.icons-share__txt {
+  white-space: nowrap;
 }
