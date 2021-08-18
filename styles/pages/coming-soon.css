@@ -7,13 +7,13 @@
   align-items: center;
   margin-top: 13px;
   margin-left: 15px;
+  margin-bottom: 18px;
 }
 
 .notifications__h1 {
   font-size: 17px;
   font-weight: 700;
   margin-left: 7px;
-  margin-bottom: 18px;
 }
 
 .new-arrival {
@@ -53,4 +53,18 @@
   font-size: 10.51px;
   line-height: 10.26px;
   opacity: 46%;
+}
+
+.coming-movie {
+  margin-top: 25px;
+  align-items: center;
+}
+
+.coming-movie__img {
+  width: 100%;
+}
+
+.coming-movie__icons {
+  display: flex;
+  align-items: center;
 }
